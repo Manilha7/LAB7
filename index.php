@@ -37,6 +37,7 @@ if (isset($_SESSION['name'])) {
 	$smarty->assign("MENU_3","Logout");
 	$smarty->assign("MENU_4","Post Blog");
 	$smarty->assign("href4","blog.php");
+	$smarty->assign("href2","#");
 	$smarty->assign("userId",$_SESSION['id']);
 	$smarty->assign("href3","logout_action.php");
 
